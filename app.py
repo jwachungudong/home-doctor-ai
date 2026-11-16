@@ -58,7 +58,7 @@ if st.button("🔍 AI 수리 방법 진단하기", type="primary"):
       try:
         # Gemini API 설정
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-2.5-flash")
+        model = genai.GenerativeModel("gemini-3.8-flash")
 
         # 프롬프트 작성
         prompt = f"""
